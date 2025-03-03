@@ -19,13 +19,13 @@ load_dotenv()
 
 # Get it from my.telegram.org
 
-API_ID = int(getenv("API_ID", ""))
+API_ID = int(getenv("13868676", ""))
 
-API_HASH = getenv("API_HASH")
+API_HASH = getenv("233beccbc439b93a234bd4a2e6de7892")
 
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("7685839835:AAHsKEGSRte6WioraQyI_pmleAky4ih_9Qg")
 
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
@@ -50,7 +50,7 @@ EXTRA_PLUGINS = getenv("EXTRA_PLUGINS", True)
 
 EXTRA_PLUGINS_REPO = getenv(
     "EXTRA_PLUGINS_REPO",
-    "https://github.com/TheTeamVivek/Extra-Plugin",
+    "https://github.com/isagzbyk46/YukkiMusic",
 )
 # Fill here the external plugins repo where plugins that you want to load
 
@@ -96,12 +96,12 @@ SUPPORT_CHANNEL = getenv(
     "SUPPORT_CHANNEL", "https://t.me/TheTeamVivek"
 )  # Example:- https://t.me/TheTeamVivek
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/TheTeamVk"
+    "SUPPORT_GROUP", "https://t.me/dertkonagi"
 )  # Example:- https://t.me/TheTeamVk
 
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
-AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", False)
+AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", True)
 
 # Time after which you're assistant account will leave chats automatically.
 AUTO_LEAVE_ASSISTANT_TIME = int(
