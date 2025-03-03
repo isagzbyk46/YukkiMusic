@@ -62,7 +62,7 @@ SONG_DOWNLOAD_DURATION = int(
 
 
 # You'll need a Group ID for this.
-LOG_GROUP_ID = getenv("LOG_GROUP_ID", "")
+LOG_GROUP_ID = getenv("LOG_GROUP_ID", "-1002343642090")
 
 
 # Your User ID.
